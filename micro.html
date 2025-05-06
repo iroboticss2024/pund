@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microcontrollers</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <style>
+        /* General styles for the course section */
+        .course {
+            background-color: #f9f9f9; /* Light background for contrast */
+            padding: 40px 20px; /* Padding around the section */
+            margin: 20px 0; /* Margin for spacing between sections */
+            border-radius: 8px; /* Rounded corners */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+        }
+
+        .head {
+            text-align: center; /* Center the header */
+            margin-bottom: 30px; /* Space below the header */
+        }
+
+        .head h1 {
+            font-size: 2.5rem; /* Larger font size for the main title */
+            color: #000000; /* Dark color for text */
+        }
+
+        .head h1 span {
+            color: #000000; 
+            padding: 1px; /* Different color for the span text */
+            border-radius: 10%;
+        }
+
+        .content {
+            display: flex; /* Flexbox layout for text and image */
+            justify-content: space-between; /* Space between text and image */
+            align-items: flex-start; /* Align items to the start */
+            font-weight: 500;
+        }
+
+        .course-text {
+            flex: 1; /* Take up remaining space */
+            margin-right: 20px; /* Margin to separate text from image */
+        }
+
+        .course-img {
+            flex: 0 0 300px; /* Fixed width for the image */
+        }
+
+        .course-img img {
+            max-width: 100%; /* Make image responsive */
+            border-radius: 8px; /* Rounded corners for the image */
+        }
+
+        .course-text h4 {
+            color: #000000; /* Medium gray for subheadings */
+            margin-top: 20px; /* Margin above subheadings */
+        }
+
+        .course-text p {
+            line-height: 1.6; /* Improve readability */
+            color: #000000; /* Lighter gray for paragraph text */
+        }
+
+        .course-text ul {
+            margin: 10px 0; /* Margin for lists */
+            padding-left: 20px; /* Indentation for lists */
+        }
+
+        .course-text ul li {
+            margin-bottom: 8px; /* Space between list items */
+            color: #000000; /* Lighter gray for list items */
+        }
+    </style>
+    
+</head>
+<body>
+    <header>
+        <div class="contact-info">
+            <div class="phone">
+                <img src="img/header/telephone-call.png" alt="Phone Icon" width="20" height="20">
+                <span>9488212024</span>
+            </div>
+            <div class="email">
+                <img src="img/header/gmail.png" alt="Email Icon" width="20" height="20">
+                <span>irobotics2024@gmail.com</span>
+            </div>
+        </div>
+        <div class="head-con">
+            <a href="https://www.instagram.com/i_roboticss"><img src="img/header/instagram.png" alt="Instagram Icon">I ROBOTICSS</a>
+            <a href="https://www.linkedin.com/in/i-robotics-undefined-7a1b78334/"><img src="img/header/linkedin.png" alt="LinkedIn Icon">I ROBOTICSS</a>
+        </div>
+    </header>
+
+    <section class="section-1">
+        <div class="logo">
+            <a href="#"><img src="img/Logos.png" alt="Logo"></a>
+        </div>
+        <div class="nav">
+            <ul class="item">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li class="active"><a href="courses.html">Courses</a></li>
+                <li><a href="ATL.html">Atal Tinkering Lab</a></li>
+                <li><a href="career.html">Career</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="close-icon">&times;</div>
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </section>
+
+    <div class="rapper">
+        <h1>Microcontrollers & Sensors</h1>
+        <div class="breadcrumbs">
+            <ul>
+                <li><a href="index.html"><i class="fa-solid fa-house"></i>Home</a></li>
+                <li><a href="courses.html"><i class="fa-solid fa-award"></i>Courses</a></li>
+                <li class="actives"><a href="sql.html"><i class="fa-solid fa-sensor-on"></i>Microcontrollers & Sensors</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <section class="course" id="microcontrollers-course">
+        <div class="head">
+            <h1>Microcontrollers & Sensors <span>Course</span></h1>
+        </div>
+        <div class="content">
+            <div class="course-text">
+                <h4>Course Overview</h4>
+                <p>This course introduces participants to the world of microcontrollers and sensors. It covers the fundamental principles of microcontroller operation, interfacing techniques, and practical applications in various fields.</p>
+                
+                <h4>Key Topics Covered:</h4>
+                <ul>
+                    <li>Introduction to Microcontrollers</li>
+                    <li>Basic Electronics and Components</li>
+                    <li>Programming Microcontrollers (Arduino)</li>
+                    <li>Interfacing Sensors and Actuators</li>
+                    <li>Real-world Applications and Projects</li>
+                </ul>
+                
+                <h4>Learning Outcomes:</h4>
+                <p>By the end of this course, participants will be able to:</p>
+                <ul>
+                    <li>Understand the architecture of microcontrollers.</li>
+                    <li>Write basic programs for microcontroller applications.</li>
+                    <li>Interface sensors and actuators to perform various tasks.</li>
+                    <li>Implement projects using microcontrollers and sensors.</li>
+                </ul>
+
+                <h4>Certification</h4>
+                <p>Participants will receive a certificate of completion upon finishing the course.</p>
+
+                <h4>Who Should Enroll?</h4>
+                <p>This course is suitable for:</p>
+                <ul>
+                    <li>Engineering students and hobbyists interested in electronics.</li>
+                    <li>Anyone looking to build projects using microcontrollers.</li>
+                    <li>Professionals wanting to understand embedded systems.</li>
+                </ul>
+
+                <h4>Price:</h4>
+                <p>₹5,000</p>
+            </div>
+            <div class="course-img">
+                <img src="img/cour/cpu.png" alt="Microcontrollers Course">
+                
+            </div>
+        </div>
+    </section>
+
+   </main>
+
+<section class="hiring">
+    <h1 class="hp">Skilled Coverd</h1>
+    <div class="Mark">
+        <div class="Marquee FirstRow">
+            <div class="mark Item"><i class="fa-brands fa-html5"></i></div>
+            <div class="mark Item"><i class="fa-brands fa-css3-alt"></i></div>
+            <div class="mark Item"><i class="fa-brands fa-js"></i></div>
+            <div class="mark Item"><i class="fa-brands fa-node"></i></div>
+            <div class="mark Item"><i class="fa-brands fa-vuejs"></i></div>
+            <div class="mark Item"><i class="fa-brands fa-bootstrap"></i></div>
+            <div class="mark Item"><i class="fa-brands fa-java"></i></div>
+            <div class="mark Item"><i class="fa-brands fa-python"></i></div>
+            <div class="mark Item"><i class="fa-brands fa-html5"></i></div>
+            <div class="mark Item"><i class="fa-brands fa-css3-alt"></i></div>
+            <div class="mark Item"><i class="fa-brands fa-js"></i></div>
+            <div class="mark Item"><i class="fa-brands fa-node"></i></div>
+            <div class="mark Item"><i class="fa-brands fa-vuejs"></i></div>
+            <div class="mark Item"><i class="fa-brands fa-bootstrap"></i></div>
+            <div class="mark Item"><i class="fa-brands fa-java"></i></div>
+            <div class="mark Item"><i class="fa-brands fa-python"></i></div>
+        </div>
+        <div class="Marquee SecondRow">
+            <div class="mark Item"><i class="fa-brands fa-html5"></i></div>
+            <div class="mark Item"><i class="fa-brands fa-css3-alt"></i></div>
+            <div class="mark Item"><i class="fa-brands fa-js"></i></div>
+            <div class="mark Item"><i class="fa-brands fa-node"></i></div>
+            <div class="mark Item"><i class="fa-brands fa-vuejs"></i></div>
+            <div class="mark Item"><i class="fa-brands fa-bootstrap"></i></div>
+            <div class="mark Item"><i class="fa-brands fa-java"></i></div>
+            <div class="mark Item"><i class="fa-brands fa-python"></i></div>
+            <div class="mark Item"><i class="fa-brands fa-html5"></i></div>
+            <div class="mark Item"><i class="fa-brands fa-css3-alt"></i></div>
+            <div class="mark Item"><i class="fa-brands fa-js"></i></div>
+            <div class="mark Item"><i class="fa-brands fa-node"></i></div>
+            <div class="mark Item"><i class="fa-brands fa-vuejs"></i></div>
+            <div class="mark Item"><i class="fa-brands fa-bootstrap"></i></div>
+            <div class="mark Item"><i class="fa-brands fa-java"></i></div>
+            <div class="mark Item"><i class="fa-brands fa-python"></i></div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Bottom Section -->
+<div class="footer">
+<div class="inner-footer">
+    <div class="footer-items">
+        
+        <img class="footer-logo" src="img/Logos.png" alt="I ROBOTICS Logo" style="width: 200px; max-width: 100%; height: auto;">
+    </div>
+
+    <!-- Coimbatore Address Section -->
+    <div class="footer-items">
+        <h3>Head Office - Coimbatore</h3>
+        <div class="border1"></div>
+        <ul>
+            <li><i class="fa fa-map-marker" aria-hidden="true"></i> 60 A MGR Nagar, Madukaai Road, Sidco Post, Coimbatore-641021</li>
+            <li><i class="fa fa-phone" aria-hidden="true"></i> 9488212024</li>
+            <li><i class="fa fa-clock" aria-hidden="true"></i> 10:00-18:00, Mon-Sat</li>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3917.089800022716!2d76.96947287504449!3d10.956589089203353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTDCsDU3JzIzLjciTiA3NsKwNTgnMTkuNCJF!5e0!3m2!1sen!2sin!4v1729852485043!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </ul>
+    </div>
+
+    <!-- Kollam Branch Address Section -->
+    <div class="footer-items">
+        <h3>Branch - Kollam</h3>
+        <div class="border1"></div>
+        <ul>
+            <li><i class="fa fa-map-marker" aria-hidden="true"></i> I Robotics, Netaji Nagar-154, Ayathil (Po), Kollam - 691021</li>
+            <li><i class="fa fa-phone" aria-hidden="true"></i> 62825 91504</li>
+            <li><i class="fa fa-clock" aria-hidden="true"></i> 10:00-18:00, Mon-Sat</li>
+        </ul>
+        <!-- Embedded Google Map with new size -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3941.8898373105967!2d76.63134447501729!3d8.889833491166058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOMKwNTMnMjMuNCJOIDc2wrAzOCcwMi4xIkU!5e0!3m2!1sen!2sin!4v1729915134706!5m2!1sen!2sin" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <!-- Quick Links Section -->
+    <div class="footer-items">
+        <h3>Quick Links</h3>
+        <div class="border1"></div>
+        <ul>
+            <li ><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="ATL.html">Atal Tinkering Lab</a></li>
+            <li><a href="career.html">Career</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Courses Section -->
+    <div class="footer-items">
+        <h3>Courses</h3>
+        <div class="border1"></div>
+        <ul>
+            <li><a href="fsd.html">Full Stack Development</a></li>
+            <li><a href="python.html">Python</a></li>
+            <li><a href="java.html">Java</a></li>
+            <li><a href="sql.html">SQL</a></li>
+            <li><a href="aws.html">AWS</a></li>
+            <li><a href="micro.html">Microcontrollers & Sensors</a></li>
+            <li><a href="bug.html">Bug Bounty</a></li>
+            <li><a href="hacking.html">Hacking</a></li>
+            <li><a href="git.html">Git</a></li>
+            <li><a href="ai.html">Artificial Intelligence</a></li>
+        </ul>
+    </div>
+</div>
+
+<!-- Social Media Links Section (Now placed below inner-footer) -->
+<div class="social-media">
+    <a href="https://www.instagram.com/i_roboticss" class="instagram"><i class="fab fa-instagram"></i></a>
+    <!-- <a href="#" class="youtube"><i class="fab fa-youtube"></i></a> -->
+    <a href="https://www.linkedin.com/in/i-robotics-undefined-7a1b78334/" class="linkedin"><i class="fab fa-linkedin"></i></a>
+</div>
+
+<!-- Footer Bottom Section -->
+<div class="footer-bottom">
+    <i class="fa-solid fa-copyright"></i> Copyright I ROBOTICSS. All Rights Reserved
+</div>
+</div>
+
+<!-- arrow-marka -->
+<button id="btnUp" type="button"><i class="fas fa-arrow-up"></i></button>
+
+<script>
+   $('#btnUp').click(function () {
+$('html').animate({ scrollTop: 0 }, "slow");
+});
+
+
+
+document.addEventListener('DOMContentLoaded', function() {
+const hamburger = document.querySelector('.hamburger');
+const nav = document.querySelector('.nav');
+const closeIcon = document.querySelector('.close-icon');
+
+hamburger.addEventListener('click', function() {
+nav.classList.toggle('active');
+});
+
+closeIcon.addEventListener('click', function() {
+nav.classList.remove('active');
+});
+});
+</script>
+
+</body>
+</html>
