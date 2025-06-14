@@ -451,10 +451,11 @@ button.next {
 }
 
 .about-img img {
-    width: 100%; /* Responsive image */
+    width: 100%; /* Maintains responsiveness */
+    max-width: 500px; /* Increase max-width to make the image larger (adjust as needed) */
     height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border-radius: 10px; /* Keep existing style */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Keep existing style */
 }
 
 /* Text Styling */
