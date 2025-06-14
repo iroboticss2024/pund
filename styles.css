@@ -48,8 +48,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: hsl(0, 100%, 50%);
-    
+    background-color: white; /* Changed from hsl(0, 100%, 50%) to white */
 }
 
 .contact-info {
@@ -97,7 +96,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
-    background-color: #fff; /* Darker background for elegance */
+    background-color: #000; /* Darker background for elegance */
     width: 100%;
     position: fixed;
      left: 0;
