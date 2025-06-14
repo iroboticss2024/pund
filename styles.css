@@ -96,19 +96,18 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
-    background-color: #000; /* Darker background for elegance */
+    background-color: #fff; /* Changed to white background by default */
     width: 100%;
     position: fixed;
-     left: 0;
-     padding: 10px 20px;
-     z-index: 999;
-     position: sticky;
-     top: 0;
-     left: 0;
+    left: 0;
+    padding: 10px 20px;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
     transition: background-color 0.3s ease; /* Smooth transition */
 }
-
 .section-1:hover {
     background-color: #fff; /* Changed to white background on hover */
 }
