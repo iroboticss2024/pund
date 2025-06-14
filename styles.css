@@ -142,7 +142,7 @@ header {
 }
 
 .nav .item li a {
-    color: #fff;
+    color: #000;
     text-decoration: none;
     font-weight: bold;
     font-size: 16px; /* Increased font size for better readability */
