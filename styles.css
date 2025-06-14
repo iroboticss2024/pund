@@ -150,12 +150,11 @@ header {
     padding: 5px 0;
     transition: color 0.3s ease, transform 0.3s ease; /* Smooth hover effect */
 }
-
 .nav .item li a:hover {
-    color: #000;
-    background-color: #fff;
-    padding: 5px; /* Highlight color on hover for better interaction */
-    transform: scale(1.05); /* Slight zoom on hover */
+    color: #fff; /* Changed from #000 to #fff to keep text white */
+    background-color: #333; /* Optional: Change background to a darker shade for contrast */
+    padding: 5px;
+    transform: scale(1.05);
 }
 .nav .item li.active a {
     color: #000;
