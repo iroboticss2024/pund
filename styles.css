@@ -110,7 +110,7 @@ header {
 }
 
 .section-1:hover {
-    background-color: rgba(0, 0, 0, 0.9); /* Slight opacity on hover for a modern effect */
+    background-color: #fff; /* Changed to white background on hover */
 }
 
 /* Logo Styles */
