@@ -9,8 +9,13 @@ mainname{
     color: white;
 
 }
-header-img{
-    size: 500px
+.header-img{
+    height: 40px;
+    width: auto;
+    align-items: center;
+    gap: 10px;
+    display: flex;
+    
 }
 h1{
     font-size: 50px;
